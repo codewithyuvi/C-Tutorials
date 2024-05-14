@@ -1,0 +1,208 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+  // int n;
+  // cout<<"Please enter some value for n: ";
+  // cin>>n;
+
+  // cout<<"The value of n is :"<< n << endl;
+
+  // if(n>0){
+  //   cout<<"n is positive"<< endl;
+  // }
+  // else{
+  //   cout<<"n is not positive"<< endl;
+  // }
+
+  // int a;
+  // cout<<"a = " ;
+  // cin>>a;
+  // cout<<endl;
+  // int b;
+  // cout<<"b = " ;
+  // cin>>b;
+  // cout<<endl;
+
+  // if(a>b){
+  //   cout<<"a is greater than b"<<endl;
+  // }
+  // if(a<b){
+  //   cout<<"a is less than b"<<endl;
+  // }
+  // else{
+  //   cout<<"a is equal to b"<<endl;
+  // // }
+
+
+  // int a,b;
+
+  // cout<<"Enter the value of a " << endl;
+  // cin>>a;
+
+  // cout<<"Enter the value of b " << endl;
+  // cin>>b;
+
+  // if(a>b){
+  //   cout<<"a is greater than b"<<endl;
+  // }
+  // if(b>a){
+  //   cout<<"b is greater than a"<<endl;
+  // }
+
+
+ 
+  
+  // int a;
+  // cout<<"Enter the value of a " << endl;
+  // cin>>a;
+  // if(a>0){
+  //   cout<<"a is positive"<<endl;
+  // }
+  // if(a<0){
+  //   cout<<"a is negative"<<endl;
+  // }
+  // if(a==0){
+  //   cout<<"a is zero"<<endl;
+  // }
+
+  
+  
+  
+  
+  
+  // int a;
+  // cout<<"Enter the value of a " << endl;
+  // cin>>a;
+  // if(a>0){
+  //   cout<<"a is positive"<<endl;
+  // }
+  // else{
+    
+  
+  //   if(a<0){
+  //   cout<<"a is negative"<<endl;
+  // }
+  // else{
+  //   cout<<"a is zero"<<endl;
+  // }
+  // }
+
+
+
+  
+
+  // int a;
+  // cout<<"Enter the value of a " << endl;
+  // cin>>a;
+  // if(a>0){
+  //   cout<<"a is positive"<<endl;
+  // }
+  // else if(a<0){
+  //   cout<<"a is negative"<<endl;
+  // }
+  // else{
+  //   cout<<"a is zero"<<endl;
+  // }
+
+
+  // int a =2;
+  // int b=a+1;
+
+  // if((a=3)==b){
+  //   cout<<a;
+  // }
+  // else{
+  //   cout<<a+1;
+    
+  // }
+
+  // int a= 24;
+
+  // if(a>20){
+  //   cout<<"Love ";
+  // }
+  // else if(a==24){
+  //   cout<<"Lovely";
+  // }
+  // else{
+  //   cout<<"Babbar";
+  // }
+  // cout<<a;
+
+  // char ch;
+  // cout<<"Please type something ";
+  
+  // cin>>ch;
+  // if(ch>='a' && ch<='z'){
+  //   cout<<"This is lower case";
+    
+  // }
+  // else if(ch>='A' && ch<='Z'){
+  //   cout<<"This is upper case";
+  // }
+  // else if(ch>='1' && ch<='9'){
+  //   cout<<"This is numeric";
+    
+  // }
+  // else{
+  //   cout<<"This is special character";
+    
+  // }
+
+/* While Loop */
+
+  // int n;
+  // cin>>n;
+  // int i=1;
+
+  // int sum=0;
+  
+  // while(i<=n){
+  //   cout<<i << " ";
+  //   sum=sum+i;
+  //   i=i+1;
+    
+  // }
+  // cout<<endl<<sum;
+
+
+  // int n;
+  // cout<<"enter";
+  // cin>>n;
+
+  // int i=2;
+ 
+  // while(i<n){
+  //   int value = n%i;
+  //   if(value==0){
+  //     cout<<"Not prime";
+  //     break;
+      
+  //   }
+  //   else{
+  //     cout<<"prime";
+  //     break;
+  //   }
+  //   i=i+1;
+  // }
+
+
+  
+
+  
+
+ 
+
+
+  
+  
+   
+  
+  
+  
+
+
+
+
+}
