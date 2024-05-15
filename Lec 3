@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main(){ 
   // int n;
   // cout<<"Please enter some value for n: ";
   // cin>>n;
