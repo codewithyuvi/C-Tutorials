@@ -1,3 +1,62 @@
+/* code for our compiler */
+
+#include <iostream>
+#include <math.h>
+#include <climits>
+using namespace std;
+
+int main()
+{
+    
+    // finding number of digits in number
+    int x;
+    // cout<<"enter";
+    cin>>x;
+    if(x<(INT_MIN/10) || x>(INT_MAX/10)){
+        cout<<"hi";
+    }
+    else{
+        
+    
+    int m=x;
+
+    int count=0;
+    if(x<0){
+        x=-x;
+    }
+
+    while(x!=0){
+        x /= 10;
+        count++;
+    }
+    
+
+    int i = 1;
+    int pdt = 1;
+    int sum=0;
+    
+    while(m!=0){
+        int remainder = m%10;
+        m /=10;
+        
+        pdt = ((remainder)*pow(10, count-i));
+        sum=sum+pdt;
+        
+        i++;
+    }
+
+    cout<< sum<<endl;
+    // if(sum<(INT_MIN/10) || sum>(INT_MAX/10)){
+    //     cout<< "hi";
+    // }
+    // else{
+        // cout<< sum;
+    // }
+    
+    }
+}
+
+/*  code for leedcode... */
 class Solution {
 public:
     int reverse(int x) {
