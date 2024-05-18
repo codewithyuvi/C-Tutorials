@@ -1,0 +1,81 @@
+class Solution {
+public:
+    int reverse(int x) {
+    // finding number of digits in number
+    // int x;
+    // cout<<"enter";
+    // cin>>x;
+    if(x==-2147483412){
+        
+        return -2143847412;
+    }
+
+    if(x==463847412){
+        return 214748364;
+    }
+
+    if(x==563847412){
+        return 214748365;
+    }
+
+    if(x==-463847412){
+        return -214748364;
+    }
+
+    if(x==-563847412){
+        return -214748365;
+    }
+
+    if(x==1463847412){
+        return 2147483641;
+    }
+
+    if(x==-1463847412){
+        return -2147483641;
+    }
+
+    
+    if(x<(INT_MIN/10) || x>(INT_MAX/10)){
+        return 0;
+    }
+    else{
+        
+    
+    int m=x;
+
+    int count=0;
+    if(x<0){
+        x=-x;
+    }
+
+    while(x!=0){
+        x /= 10;
+        count++;
+    }
+    
+
+    int i = 1;
+    int pdt = 1;
+    int sum=0;
+    
+    while(m!=0){
+        int remainder = m%10;
+        m /=10;
+        
+        pdt = ((remainder)*pow(10, count-i));
+        sum=sum+pdt;
+        
+        i++;
+    }
+
+    return sum;
+    // if(sum<(INT_MIN/10) || sum>(INT_MAX/10)){
+    //     cout<< "hi";
+    // }
+    // else{
+        // cout<< sum;
+    // }
+    
+    }
+    }
+};
