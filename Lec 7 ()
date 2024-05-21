@@ -23,6 +23,42 @@ int main()
         cout << compli  ;
 
     }
+
+
+
+
+
+#include <iostream>
+#include <climits>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<< "enter: ";
+    cin>>n;
+    
+    int remainder ;
+    // int binPlusCompli  ;
+    int compli1 ;
+    int compli = 0 ;
+    int bin =0;
+    
+    while(n!=0){
+        
+        remainder = n%2 ;
+        n = n/2 ;
+        // cout << remainder  ;
+        // bin = ( bin * 10 ) + remainder ; 
+        // compli1 = remainder ^ 1 ;
+        compli = (( compli * 10 ) + remainder) ^ 1 ; 
+        // cout <<compli1  ;
+        cout << endl << compli;
+    }
+    // cout << endl << bin ;
+    
+    cout << endl << compli ;
+}  
     // cout << endl << bin ;
     
     // cout << endl << compli ;
