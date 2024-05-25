@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b;
+    int ans;
+    
+    cout << " Enter the value of a " <<endl;
+    cin>>a;
+    
+    cout << " Enter the value of b " << endl;
+    cin >>b;
+    
+    char op;
+    cout << " Enter the operation you want to perform" << endl;
+    cin >> op;
+    
+    switch(op){
+        
+        case '+': 
+            ans = a + b;
+            cout << ans;
+            break;
+            
+        
+        case '-':
+         ans = a - b;
+            cout << ans;
+        break;
+        
+        case '/':
+         ans = a / b;
+            cout << ans;
+        break;
+        
+        case '*':
+         ans = a * b;
+            cout << ans;
+            break;
+            
+    }
+
+}
