@@ -1,0 +1,44 @@
+#include <iostream>
+using namespace std;
+
+int findingPeak(int arr[], int size){
+    
+    int start = 0 ; 
+    int end = size - 1 ;
+    int mid = start + (end - start) / 2 ;
+    int ans;
+    
+    while(start < end ) {
+        
+        if( arr[mid] < arr[mid + 1] ){
+            start = mid + 1 ;
+        }
+        
+        else{
+            end = mid  ;
+             
+        }
+        
+        mid = start + (end - start ) / 2 ; 
+        
+        
+        
+    }
+    
+    
+    
+    return mid ;
+    
+    
+}
+
+int main()
+{
+
+    int arr[4] = {3,5,4,1} ;
+    int calling_findingPeak = findingPeak(arr, 4);
+    cout << calling_findingPeak ; 
+    
+    return 0 ;
+
+}
